@@ -1,0 +1,7 @@
+export { default as HomePage } from './guest/Home'
+export { default as NewVideoPage } from './guest/NewVideoPage'
+export { default as LoginPage } from './auth/LoginPage'
+export { default as SignupPage } from './auth/SignupPage'
+export { default as VerifyPage } from './auth/VerifyPage'
+export { default as SingleVideoPage } from './dashboard/SingleVideoPage'
+export { default as UserVideosPage } from './dashboard/UserVideosPage'
