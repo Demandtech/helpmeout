@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 export default function CloseIcon({ className }) {
   return (
     <svg
@@ -25,4 +26,8 @@ export default function CloseIcon({ className }) {
       />
     </svg>
   )
+}
+
+CloseIcon.propTypes = {
+  className: PropTypes.string,
 }
